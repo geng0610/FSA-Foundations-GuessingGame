@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Geng Tan">
+	<title>Title Goes Here</title>
+  	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  	<link href="css/style.css" rel="stylesheet" type="text/css">
+  	<script src="js/jQuery.js"></script>
+</head>
+<body>
+	<div class = "row">
+		<div class = "col-md-12 logo-holder">
+			<img class = "logo" src = "images/me.png">
+		</div>
+	</div>
+	<div class = "row">
+		<div class = "col-md-12 title-holder">
+			<h1 class = "title">Welcome to Geng's Guessing Game</h1>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = "col-md-12 question-holder">
+			<h2 class = "question">Guess a Number</h2>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = "col-md-12 response-holder">
+			<form class = "response-form">
+				<input class = "response" type = "text" value="" placeholder = "input a number 1 through 100">
+				<h3 class = "hint"></h3>
+				<input class = "submit-button action-button animate blue" type = "submit" value="submit">
+			</form>
+			<div class = "response-buttons">
+				<button id = "show-answer" type="button" class = "action-button animate green">Give me a hint</button>
+				<button id = "reset" type="button" class = "action-button animate red">Reset the game</button>
+			</div>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = "col-md-12 remaining-guess-holder">
+			<h3 class = "remaining-guesses">You have 5 remaining guesses.</h3>
+		</div>
+	</div>
+</body>
+	<script src="js/app.js"></script>
+</html>
+
+

@@ -1,0 +1,100 @@
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  color: #9E9E9E;
+}
+
+body{
+  padding-top: 1em;
+  background: #EEEEEE;
+}
+
+.title, .question, .remaining-guesses{
+  text-align: center;
+}
+
+.logo{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 8em;
+  box-shadow: 0em 0.1em 0.3em 0.1em #9E9E9E;
+}
+
+.response-form{
+  width: 25em;
+  height: auto;
+  min-height: 6.5em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background: #FFFFFF;
+  padding: 1em;
+}
+
+.hint{
+  text-align: center;
+}
+
+.response-buttons{
+  width: 25em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: .1em;
+  text-align: center;
+  margin-top: .1em;
+}
+
+.response{
+  width: 20em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.submit-button{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.action-button{
+  width: 10em;
+  margin-top: 1em;
+  border-radius: .5em;
+  color: #FFFFFF;
+}
+
+.action-button:active{
+  transform: translate(0em,.1em);
+  border-bottom: .1em solid;
+}
+
+.action-button:focus{
+  outline: 0;
+}
+
+.animate{
+  transition: all 0.1s;
+}
+
+.blue{
+  background-color: #3498DB;
+  border: .1em solid #2980B9;
+  border-bottom: .3em solid #2980B9;
+}
+
+.green{
+  background-color: #82BF56;
+  border: .1em solid #669644;
+  border-bottom: .3em solid #669644;
+}
+
+.red{
+  background-color: #E74C3C;
+  border: .1em solid #BD3E31;
+  border-bottom: .3em solid #BD3E31;
+}
